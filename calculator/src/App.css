@@ -1,0 +1,78 @@
+:root {
+  --primary-color: #f6ac01;
+  --light-color: #d2d2d2;
+  --dark-color: rgb(53, 53, 53);
+  --font-color-light: #ededed;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.App {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 320px;
+  background-color: var(--light-color);
+  overflow: hidden;
+  box-shadow: 0px 0px 30px #c1c1c1;
+}
+
+.display {
+  padding: 1.5rem 1rem;
+  text-align: right;
+  background-color: var(--dark-color);
+  border: var(--dark-color) solid 1px;
+  color: var(--font-color-light);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+button {
+  border: #cbcbcb solid 1px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+  padding: 24px 0px;
+}
+
+button:hover {
+  opacity: 0.9;
+  background-color: var(--light-color);
+}
+
+button:first-child {
+  color: var(--primary-color);
+}
+
+button:last-child {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border: var(--primary-color) solid 1px;
+}
+
+button:nth-child(2) {
+  color: #f6ac01;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(50px, auto);
+}
+
+.clear {
+  grid-column: 1/3;
+  grid-row: 1;
+}
+
+.result {
+  grid-column: 5/3;
+}
