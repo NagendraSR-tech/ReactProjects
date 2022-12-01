@@ -1,0 +1,67 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "demasiado tiempo que un lector se distraerá ",
+      "body": "psum, necesitás estar seguro de que no hay nada avergonzante escondido en el medio del texto. Todos los generadores de Lorem Ipsum que se encuentran en Internet tienden a repetir trozos predefinidos cuando sea necesario, haciendo a este el único generador verdadero (válido) en la Internet. ",
+      "category":"Political",
+      "img":"1.jpg",
+      "data": "21/21/1950",
+      "author": "Mary Bottom",
+      "Views":"500",
+      "likes": [
+        50,
+        75
+      ]
+    },
+    {
+      "id": 2,
+      "title": " tiempo que un lector se distraerá ",
+      "body": "necesitás estar seguro de que no hay nada avergonzante escondido en el medio del texto. Todos los generadores de Lorem Ipsum que se encuentran en Internet tienden a repetir trozos predefinidos cuando sea necesario, haciendo a este el único generador verdadero (válido) en la Internet. ",
+      "category":"sports",
+      "img":"2.jpg",
+      "data": "21/21/1950",
+      "author": "Mary Bottom",
+      "Views":"500",
+      "likes": [
+        50,
+        75
+      ]
+    },
+    {
+      "id": 3,
+      "title": " que un lector se distraerá ",
+      "body": "estar seguro de que no hay nada avergonzante escondido en el medio del texto. Todos los generadores de Lorem Ipsum que se encuentran en Internet tienden a repetir trozos predefinidos cuando sea necesario, haciendo a este el único generador verdadero (válido) en la Internet. ",
+      "category":"Movies",
+      "img":"3.jpg",
+      "data": "21/21/1950",
+      "author": "Mary Bottom",
+      "Views":"500",
+      "likes": [
+        50,
+        75
+      ]
+    }
+  ],
+  "galleries": [
+    {
+      "id": 1,
+      "artist": "Ariana grande",
+      "title": "Al contrario del pensamiento popular",
+      "images": [
+        {
+          "img": "1_1.jpg",
+          "desc": "Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. "
+        },
+        {
+          "img": "1_2.jpg",
+          "desc": "muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó  "
+        },
+        {
+          "img": "1_3.jpg",
+          "desc": "pieza clsica de la literatura del Latin, que data del año 45 antes de Cristo, haciendo que este adquiera mas de 2000 años de antiguedad. "
+        }
+      ]
+    }
+  ]
+}
