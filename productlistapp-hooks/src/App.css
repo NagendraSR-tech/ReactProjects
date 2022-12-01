@@ -1,0 +1,5 @@
+.card a { text-decoration: none; }
+.card .card-body h5, .card .card-body p { color: #1d1d1d }
+.card .card-body p strong { color: #fe4001ed }
+.card .card-body p small { color: #8d8c8c }
+.btn:hover { background: rgb(5, 157, 233);}
