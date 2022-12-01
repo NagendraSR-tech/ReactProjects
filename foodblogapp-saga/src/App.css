@@ -1,0 +1,65 @@
+:root {
+  --primary-color: #db720a;
+  --secondary-color: #075793;
+  --text-color: #3d3d3d;
+  --primary-text-color: #075793;
+  --secondary-text-color: #db720a;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  border-bottom: #e6e6e6 solid 1px;
+  padding: 1.25rem;
+  background: var(--primary-color);
+  text-decoration: none;
+}
+
+header a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 2em;
+}
+
+header a:hover {
+  color: #ffffff;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  border-top: #e6e6e6 solid 1px;
+  padding: 1.25rem;
+  background: var(--primary-color);
+  color: #ffffff;
+}
+
+h1 {
+  color: var(--primary-text-color);
+}
+h2 {
+  color: var(--secondary-text-color);
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  border-color: var(--primary-color)
+}
+.btn-primary:hover {
+  background: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+section a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+section a:hover {
+  color: var(--text-color);
+}
+
+/* ---------------- */
+main {
+  min-height: 100vh;
+  overflow: auto;
+}
