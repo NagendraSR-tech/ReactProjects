@@ -1,0 +1,50 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Javascript",
+      "price": 15000,
+      "description": "1Lorem ipsum dolor sit amet. Sed culpa quisquam sit iusto accusamus quo quos consequatur qui quod atque eos adipisci repudiandae.",
+      "details": "a Sed culpa quisquam sit iusto"
+    },
+    {
+      "id": 2,
+      "name": "Node Js",
+      "price": 15000,
+      "description": "2Lorem ipsum dolor sit amet. Sed culpa quisquam sit iusto accusamus quo quos consequatur qui quod atque eos adipisci repudiandae.",
+      "details": "b Sed culpa quisquam sit iusto"
+    },
+    {
+      "id": 3,
+      "name": "React Js",
+      "price": 16000,
+      "description": "3Lorem ipsum dolor sit amet. Sed culpa quisquam sit iusto accusamus quo quos consequatur qui quod atque eos adipisci repudiandae.",
+      "details": "c Sed culpa quisquam sit iusto"
+    },
+    {
+      "id": 4,
+      "name": "Angular JS",
+      "price": 16000,
+      "description": "4Lorem ipsum dolor sit amet. Sed culpa quisquam sit iusto accusamus quo quos consequatur qui quod atque eos adipisci repudiandae.",
+      "details": "d Sed culpa quisquam sit iusto"
+    }
+  ],
+  "enquiries": [
+    {
+      "id": 920,
+      "topic": "React",
+      "name": "Lorem ipseum",
+      "email": "lorem@gmail.com",
+      "phonenumber": "1324512345",
+      "details": "Lorem Ipseum Lorem Ipseum Lorem Ipseum Lorem Ipseum Lorem Ipseum Lorem Ipseum Lorem Ipseum Lorem Ipseum Lorem Ipseum "
+    },
+    {
+      "id": 795,
+      "topic": "Angular",
+      "name": "Ipseum",
+      "email": "ipseum@gmail.com",
+      "phonenumber": "1234512345",
+      "details": "Lorem ipseum Lorem ipseum Lorem ipseum Lorem ipseum Lorem ipseum Lorem ipseum Lorem ipseum Lorem ipseum Lorem ipseum "
+    }
+  ]
+}
