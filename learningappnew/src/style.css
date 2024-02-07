@@ -1,0 +1,177 @@
+:root {
+  --primary-color: rgb(4, 163, 254);
+  --secondary-color: #ff9306;
+
+  --primary-text-color: rgb(4, 163, 254);
+  --secondary-text-color: #6c6c6c;
+
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #f5f5f5;
+  --font-text-color: rgb(0, 0, 0);
+  --btn-text-color: rgb(255, 255, 255);
+  --btn-text-color-hover: #ffffff;
+}
+
+.App {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: var(--primary-background-color);
+}
+
+p {
+  color: var(--secondary-text-color)
+}
+
+h1 {
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+h2 {
+  text-align: center;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: #e6e6e6 solid 1px;
+  background-color: var(--secondary-background-color);
+  padding: 0.25rem 1rem;
+}
+
+.primary-links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0.25rem 1rem;
+  margin: 0.5rem 0.5rem;
+}
+
+.primary-links a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: var(--primary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.primary-links a:hover {
+  background-color: var(--secondary-color);
+}
+
+main {
+  padding: 0.5rem;
+}
+
+.add-more-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+button {
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.25rem;
+  border: none;
+  margin: 0.5rem 0.5rem;
+  cursor: pointer;
+  border: #e6e6e6 solid 1px;
+  background: #e2e0e0;
+}
+button a {
+  color: red
+}
+
+button:hover {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+button a:hover,
+button a:active {
+  color: #ffffff;
+}
+
+input {
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.25rem;
+  margin: 0.5rem 0.5rem;
+  border: #ababab solid 1px;
+}
+
+.media-block {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  border: #e6e6e6 solid 1px;
+  margin: 0.5 rem;
+  background-color: var(--secondary-background-color);
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.media-block ul {
+  background-color: #ffffff;
+}
+
+.media-block ul li {
+  list-style: none;
+  padding: 0.25rem;
+}
+
+section.blog-section {
+  display: flex;
+  width: 100%;
+  border: #e6e6e6 solid 1px;
+}
+
+article {
+  border: #e6e6e6 solid 1px;
+  width: 70%;
+  padding: 1rem;
+}
+
+aside {
+  width: 30%
+}
+
+.article-title-date {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.article-title-date p {
+  color: #ff9306;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.blog-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-form input,
+.blog-form textarea {
+  min-width: 16rem;
+}
+
+@media screen and (max-width: 600px) {
+  .primary-links {
+    flex-direction: column;
+    margin-top: 0.5rem;
+    height: 10rem;
+  }
+
+  .media-block {
+    flex-direction: column;
+  }
+}
